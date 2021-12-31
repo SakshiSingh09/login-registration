@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login\Registration Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="registration">
+      <div class="title">
+        <h3>Registration</h3>
+      </div>
+      <div class="title-1">
+        <p>Not part of the community? Register for an account now.</p>
+      </div>
+      <div class="title-2">
+          <p>Enter your details below</p>
+      </div>
+      <form class="form" action="#">
+        <label for="firstName">First Name</label><br>
+        <input type="text" name="firstName" placeholder="eg: Sakshi" required><br>
+        <label for="lastName">Last Name</label><br>
+        <input type="text" name="lastName" placeholder="eg: Singh" required><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" placeholder="eg: coco@coco.com" required><br>
+        <label for="password" placeholder="####">Password</label><br>
+        <input type="password" name="password" required><br>
+        <div class="sign-up">
+          <input type="submit" value="Submit" >
+        </div>
+      </form>
+    </div>
+
+    <div class="login">
+      <div class="title">
+        <h3>Login</h3>
+      </div>
+      <div class="title-1">
+        <p>Already signed up?</p>
+      </div>
+      <div class="title-2">
+          <p>Login Now</p>
+      </div>
+      <form class="form" action="#">
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" placeholder="eg: coco@coco.com" required><br>
+        <label for="password" placeholder="#####">Password</label><br>
+        <input type="password" name="password" required><br>
+        <input type="checkbox" name="check-input" >
+        <label for="check-input">Remember Me</label><br>
+        <div class="sign-in">
+          <input type="submit" value="Sign In" >
+        </div>
+      </form>
+      <div class="or">
+        <p>or</p>
+      </div>
+      <div class="google">
+        <button type="button" name="button">Sign In With Google</button>
+      </div>
+      <div class="fb">
+        <button type="button" name="button">Sign In With Facebook</button>
+      </div>
+    </div>
+  </body>
+</html>

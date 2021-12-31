@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 20px;
+  background-color: #dec3c3;
+  font-family: 'Quicksand', sans-serif;
+}
+.registration{
+  background-color: #e7d3d3;
+  width: 40%;
+  height: 650px;
+  margin: 50px 25%;
+  padding: 20px;
+  border-radius: 8px;
+}
+.login{
+  background-color: #f9f4f4;
+  width: 40%;
+  height: 650px;
+  margin: 50px 25%;
+  padding: 20px;
+  border-radius: 8px;
+}
+.title{
+  font-size: 30px;
+  font-family: sans-serif;
+  text-decoration: underline;
+  padding: 20px;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.title-1{
+  text-align: center;
+  padding: 20px;
+}
+.title-2{
+  text-align: center;
+  padding: 20px;
+}
+.form{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+input[type=text]{
+  padding: 12px;
+  border-radius: 50px;
+  width: 90%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+input[type=email]{
+  padding: 12px;
+  border-radius: 50px;
+  width: 90%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+input[type=password]{
+  padding: 12px;
+  border-radius: 50px;
+  width: 90%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.sign-up, .sign-in{
+  text-align: center;
+}
+input[type=submit]{
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: 0;
+}
+input[type=submit]:hover{
+  background-color: grey;
+}
+.or{
+  text-align: center;
+  font-size: 15px;
+}
+.google{
+  text-align: center;
+  padding: 20px;
+}
+.fb{
+  text-align: center;
+  padding: 20px;
+}
+.google button{
+  background-color: #DB4437;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 50px;
+  border: 0;
+}
+.fb button{
+  background-color: #4267B2;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 50px;
+  border: 0;
+}
